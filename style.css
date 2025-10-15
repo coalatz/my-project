@@ -128,3 +128,49 @@ body h1 {
   outline: 8px solid rgba(255, 255, 255, 0.2);
   border: 1.5px solid rgb(17, 17, 17);
 }
+
+#hard-skills {
+  width: 100%;
+  clear: both;
+}
+
+#hard-skills h1 {
+  padding-top: 30px;
+  padding-left: 50px;
+  margin-bottom: 20px;
+}
+
+#icons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  justify-content: flex-start;
+  padding: 20px 50px;
+  gap: 30px;
+}
+
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+  width: 80px;
+  min-height: 95px;
+
+  text-align: center;
+}
+.skill-item img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 18%;
+  transition: transform 0.3s ease;
+}
+
+.skill-item p {
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 0.85em;
+  margin: 20%, 0;
+  line-height: 1.2;
+}
