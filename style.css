@@ -88,7 +88,7 @@ body h1 {
 }
 
 #description p {
-  width: 1500px;
+  width: auto;
   padding: 0 50px;
   color: white;
   font-family: sans-serif;
@@ -173,4 +173,68 @@ body h1 {
   font-size: 0.85em;
   margin: 20%, 0;
   line-height: 1.2;
+}
+
+@media (max-width: 768px) {
+  #main-container {
+    flex-direction: column;
+  }
+  #left-column {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    min-height: 50vh;
+  }
+
+  #right-column {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    overflow-y: visible;
+  }
+  #description {
+    min-height: 50vh;
+    display: flex;
+  }
+  #description p {
+    font-size: 3.5vw;
+    padding: 0 10px;
+    flex-direction: column;
+    width: auto;
+  }
+
+  #description h1 {
+    font-size: 20px;
+    margin: 0;
+    padding: 5px 10px;
+  }
+
+  #projects {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  #projects-links {
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    margin-top: 0;
+  }
+
+  #projects-links a {
+    margin: 10%;
+  }
+
+  #hard-skills {
+    height: 10vh;
+  }
+  #icons {
+    height: 90vh;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+  }
 }
