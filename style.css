@@ -233,10 +233,13 @@ body h1 {
     height: 10vh;
   }
   #icons {
-    height: 90vh;
-    flex-wrap: wrap;
-    display: flex;
-    flex-direction: column;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     width: 100%;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding-top: 3%;
   }
 }
