@@ -84,7 +84,7 @@ body h1 {
 #description h1 {
   padding-top: 30px;
   padding-left: 50px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 #description p {
@@ -100,6 +100,11 @@ body h1 {
   flex-direction: column;
   clear: both;
   padding: 0 50px;
+}
+#projects h1 {
+  padding-top: 30px;
+  padding-left: 20px;
+  margin-bottom: 15px;
 }
 
 #projects-links {
@@ -137,7 +142,7 @@ body h1 {
 #hard-skills h1 {
   padding-top: 30px;
   padding-left: 50px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 #icons {
@@ -200,24 +205,26 @@ body h1 {
   }
   #description p {
     font-size: 3.5vw;
-    padding: 1% 10px;
+    padding: 1% 20px;
     flex-direction: column;
     width: auto;
   }
 
   #description h1 {
     font-size: 3.5vh;
-    margin: 0;
-    padding: 5px 10px;
+    padding-top: 30px;
+    padding-left: 20px;
   }
 
   #projects {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    padding-left: 30px;
   }
   #projects h1 {
     font-size: 3.5vh;
+    padding-left: 0;
   }
   #projects-links {
     display: flex;
@@ -231,6 +238,9 @@ body h1 {
   }
   #hard-skills {
     height: 10vh;
+  }
+  #hard-skills h1 {
+    padding-left: 30px;
   }
   #icons {
     height: 100vh;
